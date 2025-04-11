@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Projet: Interface Web</title>
+</head>
+<body>
+ <h1>Student Data</h1>
+ <hr>
+    <form>
+        <div>
+
+         <label for="lname">Nom:    </label>
+         <input type="text" id="lname" name="lname" placeholder="Maati">
+
+        </div>
+        
+        <br>
+
+        <div>
+
+         <label for="fname">Prénom:</label>
+         <input type="text" id="fname" name="fname" placeholder="Imane">
+
+        </div>
+
+        <br>
+
+        <div>
+
+         <label for="Apogée">Apogée:</label>
+         <input type="number" id="Apogée" name="Apogée" placeholder="24008955" maxlength="8">
+
+        </div>
+
+        <br>
+
+        <div>
+
+         <label for="Age">Age:   </label>
+         <input type="number" id="Age" name="Age" placeholder="18" maxlength="2">
+      
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="filière">Filière:</label>
+            <select id="filière" name="filière">
+                <option>Génie Informatique</option>
+                <option>MSD</option>
+                <option>Génie Biologique</option>
+                <option>Génie chimique</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Date">Date Naissance:</label>
+            <input type="Date" id="Date" name="Date">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Année :</label>
+
+            <input type="radio" name="title">
+            <label>1ère Année</label>
+
+            
+            <input type="radio" name="title">
+            <label>2ème Année</label>
+           
+        </div>
+
+
+    
+    </form>
